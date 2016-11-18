@@ -1,4 +1,5 @@
-﻿using System.ServiceModel;
+﻿using System.IO;
+using System.ServiceModel;
 
 namespace CSharkLibrary
 {
@@ -6,5 +7,8 @@ namespace CSharkLibrary
     {
         [OperationContract(IsOneWay = true)]
         void ReceiveMessage(string Username, string Message);
+
+        [OperationContract(IsOneWay = true)]
+        void DownloadFile(CSharkFile file);
     }
 }

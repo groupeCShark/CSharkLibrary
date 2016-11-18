@@ -11,5 +11,10 @@ namespace CSharkLibrary
 
         [DataMember]
         public DateTime LoginTime;
+
+        public override string ToString()
+        {
+            return Username;
+        }
     }
 }
