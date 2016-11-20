@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigSettings.cs" />
     <Compile Include="Crypto.cs" />
     <Compile Include="ICSharkClient.cs" />
     <Compile Include="ICSharkService.cs" />
